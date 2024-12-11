@@ -1,0 +1,49 @@
+body {
+    font-family: "Montserrat", sans-serif; /* 기본 폰트를 Montserrat로 설정 */
+}
+
+#title {
+ background-color: #ff4c68;
+ color: #fff;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif; /* 폰트 이름 */
+    font-weight: 900; /* Black 900 */
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+/* Navigation bar */
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif; /* Ubuntu 폰트를 정확히 설정 */
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300; /* Light 300 */
+    font-style: italic; /* Italic 설정 */
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
